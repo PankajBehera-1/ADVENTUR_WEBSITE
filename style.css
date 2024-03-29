@@ -350,3 +350,23 @@ footer{
         margin-bottom: 0;
     }
 }
+/* Add your existing CSS styles here */
+
+/* Add responsive styles here */
+@media only screen and (max-width: 600px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .col img {
+        width: 100%;
+        height: auto;
+    }
+}
