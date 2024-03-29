@@ -298,3 +298,49 @@ footer{
   .content3 button:hover{
     background: #77ff00;
   }
+
+  @media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links.active li {
+        margin: 10px 0;
+    }
+
+    .header-content {
+        padding: 50px 20px;
+    }
+
+    .col {
+        margin: 20px 0;
+    }
+
+    footer .main-content {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 768px) {
+    .explore-content {
+        padding: 30px 20px;
+    }
+
+    .explore-content h1 {
+        font-size: 24px;
+    }
+
+    .explore-content .line {
+        margin: 15px auto;
+    }
+
+    .explore-content p {
+        font-size: 14px;
+    }
+}
+
