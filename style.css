@@ -344,3 +344,9 @@ footer{
     }
 }
 
+@media only screen and (min-width: 600px) {
+    .box {
+        flex: 1 1 calc(33.333% - 20px);
+        margin-bottom: 0;
+    }
+}
